@@ -1340,4 +1340,135 @@ F 3 "" H 8000 2800 50  0001 C CNN
 $EndComp
 Text Notes 9200 1300 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
+$Comp
+L Device:LED D?
+U 1 1 627C692A
+P 2200 6250
+F 0 "D?" H 2350 6150 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 2400 6350 31  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 2200 6250 50  0001 C CNN
+F 3 "~" H 2200 6250 50  0001 C CNN
+	1    2200 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 627C6BA7
+P 2200 6600
+F 0 "D?" H 2350 6500 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 2400 6700 31  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 2200 6600 50  0001 C CNN
+F 3 "~" H 2200 6600 50  0001 C CNN
+	1    2200 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 627C6C21
+P 2200 7000
+F 0 "D?" H 2350 6900 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 2400 7100 31  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 2200 7000 50  0001 C CNN
+F 3 "~" H 2200 7000 50  0001 C CNN
+	1    2200 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+5V_brain #PWR?
+U 1 1 627C7641
+P 1650 6200
+F 0 "#PWR?" H 1650 6050 50  0001 C CNN
+F 1 "+5V_brain" H 1665 6373 50  0000 C CNN
+F 2 "" H 1650 6200 50  0001 C CNN
+F 3 "" H 1650 6200 50  0001 C CNN
+	1    1650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6200 1650 6250
+Wire Wire Line
+	1650 6250 2050 6250
+Wire Wire Line
+	1650 6250 1650 6600
+Wire Wire Line
+	1650 6600 2050 6600
+Connection ~ 1650 6250
+Wire Wire Line
+	1650 6600 1650 7000
+Wire Wire Line
+	1650 7000 2050 7000
+Connection ~ 1650 6600
+$Comp
+L Device:R_US R?
+U 1 1 627EBC1D
+P 2900 6250
+AR Path="/627EBC1D" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/627EBC1D" Ref="R?"  Part="1" 
+AR Path="/60A5279E/627EBC1D" Ref="R?"  Part="1" 
+F 0 "R?" V 2800 6150 50  0000 L CNN
+F 1 "4.7k" V 3000 6150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2940 6240 50  0001 C CNN
+F 3 "~" H 2900 6250 50  0001 C CNN
+	1    2900 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 6250 2750 6250
+$Comp
+L Device:R_US R?
+U 1 1 627F3AD4
+P 2900 6600
+AR Path="/627F3AD4" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/627F3AD4" Ref="R?"  Part="1" 
+AR Path="/60A5279E/627F3AD4" Ref="R?"  Part="1" 
+F 0 "R?" V 2800 6500 50  0000 L CNN
+F 1 "4.7k" V 3000 6500 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2940 6590 50  0001 C CNN
+F 3 "~" H 2900 6600 50  0001 C CNN
+	1    2900 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 627F3B4A
+P 2900 7000
+AR Path="/627F3B4A" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/627F3B4A" Ref="R?"  Part="1" 
+AR Path="/60A5279E/627F3B4A" Ref="R?"  Part="1" 
+F 0 "R?" V 2800 6900 50  0000 L CNN
+F 1 "4.7k" V 3000 6900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2940 6990 50  0001 C CNN
+F 3 "~" H 2900 7000 50  0001 C CNN
+	1    2900 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 6600 2750 6600
+Wire Wire Line
+	2350 7000 2750 7000
+Wire Wire Line
+	3050 6250 3300 6250
+Wire Wire Line
+	3300 6250 3300 6600
+Wire Wire Line
+	3300 7000 3050 7000
+Wire Wire Line
+	3050 6600 3300 6600
+Connection ~ 3300 6600
+Wire Wire Line
+	3300 6600 3300 7000
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR?
+U 1 1 6281453D
+P 3300 7300
+F 0 "#PWR?" H 3300 7050 50  0001 C CNN
+F 1 "GND_brain" H 3050 7250 50  0000 C CNN
+F 2 "" H 3300 7300 50  0001 C CNN
+F 3 "" H 3300 7300 50  0001 C CNN
+	1    3300 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 7300 3300 7000
+Connection ~ 3300 7000
 $EndSCHEMATC
