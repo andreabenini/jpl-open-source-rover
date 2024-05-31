@@ -34,7 +34,7 @@ You can also use [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack
 
 Heat shrink is a must have for keeping cables nice and snug.
 
-Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, and JST styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
+Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, JST, and Molex styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
 
 * A Raspberry Pi ribbon cable, e.g. from [Adafruit](https://www.adafruit.com/product/1988) but available in many places. While you could use header pins for this connection, the cable is the cleanest solution
 * XT30 connectors for the power connections on the motor PCB.
@@ -46,7 +46,10 @@ Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to
 * 6 4-pin JST connections:
   * 6x [premade JST to jumper wires from GoBilda](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/)
   * [JST connector kit](https://www.amazon.com/460PCS-XH2-54-Connector-Terminal-Connectors/dp/B09DBGVX5C/ref=sr_1_1_sspa?crid=2NX4ZXCFZGOCK&keywords=jst+connector+kit+4+pin&qid=1690482910&sprefix=jst+connector+kit+4+pin%2Caps%2C140&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
-* 4 3pin DuPont and 8 4pin DuPont connectors
+* 6 6-pin Molex PCI-E connections. Digikey carries a couple options. In either case, be sure to get enough for 6 connectors.
+  * [housings](https://www.digikey.com/en/products/detail/molex/0469920610/5116009) and [pins](https://www.digikey.com/en/products/detail/molex/0039000077/1643440)
+  * [assemblies](https://www.digikey.com/en/products/detail/molex/2153261063/13883006) are sometimes available but the 16 AWG wire may be difficult to work with
+* 4 3-pin DuPont and 8 4-pin DuPont connectors
   * [DuPont connector kit](https://www.amazon.com/Twidec-Connector-Terminals-Crimping-Connectors/dp/B0B152WRSW/ref=sr_1_1_sspa?keywords=dupont+connector+kit&qid=1690482984&sprefix=DUPont%2Caps%2C190&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
   * Buy precrimped wires+connectors from various sources
 * 12 female 3.5mm Bullet connectors. Make sure you're getting the right size connectors and ones that come insulated.
@@ -75,12 +78,14 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 * **1 X** Power Measurement Unit INA260: Sold out on DigiKey, possible replacements are on [Adafruit](https://www.adafruit.com/product/4226?gclid=CjwKCAjw5dqgBhBNEiwA7PryaLOm_zC9GhlzRH1NwN4bSRwDg84sIhSh3LEqTOrIvQ3j_kRBscTAYhoCBOQQAvD_BwE)
 * **1 X** PCA9685 corner motor driver [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
 * DC power meter: [Amazon](https://www.amazon.com/gp/product/B017FSED9I/). This LCD display reads out current, voltage, power, and energy, and can be put on the back where the rectangular hole is in the laser cut cover. 
-* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 12V, so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
+* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 14V(*), so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
   * Zeee sells many options [on Amazon](https://www.amazon.com/stores/page/25B7018D-26CC-4E43-BC6D-EFAF737D8F5E?ingress=2&visitId=1b4115fa-2240-424d-a0e6-a466830819ce&ref_=ast_bln) 
   * You'll also need a charger for the battery. Make sure it can support the battery you bought. For the Zeee options, [this model from Amazon](https://www.amazon.com/Hobby-Fans-Professional-Balance-Discharger/dp/B09XC91BWJ/ref=sr_1_6?keywords=LiPo+charger&qid=1690484744&sr=8-6) will work.
   * Consider getting a fireproof battery bag. LiPo batteries are extremely flammable/explosive and a fire caused by a battery is extremely difficult to put out.
   * You'll also need a way to connect your battery to the PCB via a XT30 connector (MH-FC) which depends on the battery you get. Often these come with the charger for the battery
 * A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
+
+> (*) The reason you need 14V is that the 12V regulator needs a [dropout voltage](https://www.pololu.com/product/2855#dropout) on top of the output voltage in order to provide 12V. A 12V battery will not work adequately.
 
 # Maintaining the Parts List
 

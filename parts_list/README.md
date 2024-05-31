@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1345.16** without discounts. If you are an educational builder,
+The total cost comes out to be **$1346.46** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -55,10 +55,10 @@ Cost to build these assemblies: $11.48 * 4 assemblies = $45.92
 | 45deg bracket | [1111 Series Angle Pattern Bracket (1-1) - goBILDA](https://www.gobilda.com/1111-series-angle-pattern-bracket-1-1/) | $2.99 | 4 | $11.96 |
 | 90deg steel bracket 2pack | [1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA](https://www.gobilda.com/1137-series-steel-flat-grid-bracket-1-1-2-pack/) | $3.49 | 1 | $3.49 |
 | control arm | [Plastic Hub-Mount Control Arm (72mm Length) - goBILDA](https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/) | $4.99 | 4 | $19.96 |
-| 8mm ID Spacer (10mm OD, 6mm Length) | [1514 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/) | $2.19 | 1 | $2.19 |
+| 8mm ID Spacer (10mm OD, 6mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/) | $3.49 | 1 | $3.49 |
 | 8mm ID Spacer (10mm OD, 4mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-4mm-length-4-pack/) | $2.99 | 1 | $2.99 |
 
-Cost to build these assemblies: $205.27 * 2 assemblies = $410.55
+Cost to build these assemblies: $205.92 * 2 assemblies = $411.85
 
 
 ## Parts for body assembly
@@ -66,7 +66,7 @@ Cost to build these assemblies: $205.27 * 2 assemblies = $410.55
 | short name | link | cost per part | total # req | total cost |
 |---|---|---|---|---|
 | 120mm open goRail | [1118 Series Open goRAIL (120mm Length) - goBILDA](https://www.gobilda.com/1118-series-open-gorail-120mm-length/) | $4.99 | 2 | $9.98 |
-| 2hole Uchannel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
+| 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
 | 32mm bearing | [1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA](https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/) | $12.99 | 4 | $51.96 |
 | 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 3 | $10.47 |
 | 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 5 | $25.45 |
@@ -98,12 +98,12 @@ Cost to build this assembly: $243.49
 | M4 nuts | [Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.49 | 1 | $2.49 |
 | M4 locknuts | [Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.99 | 1 | $2.99 |
 | M4x6 button screws | [M4x6 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/) | $2.99 | 2 | $5.98 |
-| M4x6 button screws | [M4x10 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.39 | 3 | $10.17 |
-| M4x6 button screws | [M4x16 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.79 | 2 | $7.58 |
-| M4x6 socket screws | [M4x8 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/) | $3.19 | 2 | $6.38 |
-| M4x8 socket screws | [M4x10 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.19 | 3 | $9.57 |
-| M4x10 socket screws | [M4x12 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | $3.19 | 1 | $3.19 |
-| M4x12 socket screws | [M4x16 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.19 | 2 | $6.38 |
+| M4x10 button screws | [M4x10 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.39 | 3 | $10.17 |
+| M4x16 button screws | [M4x16 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.79 | 2 | $7.58 |
+| M4x8 socket screws | [M4x8 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/) | $3.19 | 2 | $6.38 |
+| M4x10 socket screws | [M4x10 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.19 | 3 | $9.57 |
+| M4x1２ socket screws | [M4x12 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | $3.19 | 1 | $3.19 |
+| M4x16 socket screws | [M4x16 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.19 | 2 | $6.38 |
 | M4x20 socket screws | [M4x20 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | $3.09 | 1 | $3.09 |
 
 Cost to build this assembly: $71.79
@@ -185,7 +185,7 @@ You can also use [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack
 
 Heat shrink is a must have for keeping cables nice and snug.
 
-Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, and JST styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
+Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, JST, and Molex styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
 
 * A Raspberry Pi ribbon cable, e.g. from [Adafruit](https://www.adafruit.com/product/1988) but available in many places. While you could use header pins for this connection, the cable is the cleanest solution
 * XT30 connectors for the power connections on the motor PCB.
@@ -197,7 +197,10 @@ Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to
 * 6 4-pin JST connections:
   * 6x [premade JST to jumper wires from GoBilda](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/)
   * [JST connector kit](https://www.amazon.com/460PCS-XH2-54-Connector-Terminal-Connectors/dp/B09DBGVX5C/ref=sr_1_1_sspa?crid=2NX4ZXCFZGOCK&keywords=jst+connector+kit+4+pin&qid=1690482910&sprefix=jst+connector+kit+4+pin%2Caps%2C140&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
-* 4 3pin DuPont and 8 4pin DuPont connectors
+* 6 6-pin Molex PCI-E connections. Digikey carries a couple options. In either case, be sure to get enough for 6 connectors.
+  * [housings](https://www.digikey.com/en/products/detail/molex/0469920610/5116009) and [pins](https://www.digikey.com/en/products/detail/molex/0039000077/1643440)
+  * [assemblies](https://www.digikey.com/en/products/detail/molex/2153261063/13883006) are sometimes available but the 16 AWG wire may be difficult to work with
+* 4 3-pin DuPont and 8 4-pin DuPont connectors
   * [DuPont connector kit](https://www.amazon.com/Twidec-Connector-Terminals-Crimping-Connectors/dp/B0B152WRSW/ref=sr_1_1_sspa?keywords=dupont+connector+kit&qid=1690482984&sprefix=DUPont%2Caps%2C190&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
   * Buy precrimped wires+connectors from various sources
 * 12 female 3.5mm Bullet connectors. Make sure you're getting the right size connectors and ones that come insulated.
@@ -226,12 +229,14 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 * **1 X** Power Measurement Unit INA260: Sold out on DigiKey, possible replacements are on [Adafruit](https://www.adafruit.com/product/4226?gclid=CjwKCAjw5dqgBhBNEiwA7PryaLOm_zC9GhlzRH1NwN4bSRwDg84sIhSh3LEqTOrIvQ3j_kRBscTAYhoCBOQQAvD_BwE)
 * **1 X** PCA9685 corner motor driver [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
 * DC power meter: [Amazon](https://www.amazon.com/gp/product/B017FSED9I/). This LCD display reads out current, voltage, power, and energy, and can be put on the back where the rectangular hole is in the laser cut cover. 
-* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 12V, so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
+* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 14V(*), so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
   * Zeee sells many options [on Amazon](https://www.amazon.com/stores/page/25B7018D-26CC-4E43-BC6D-EFAF737D8F5E?ingress=2&visitId=1b4115fa-2240-424d-a0e6-a466830819ce&ref_=ast_bln) 
   * You'll also need a charger for the battery. Make sure it can support the battery you bought. For the Zeee options, [this model from Amazon](https://www.amazon.com/Hobby-Fans-Professional-Balance-Discharger/dp/B09XC91BWJ/ref=sr_1_6?keywords=LiPo+charger&qid=1690484744&sr=8-6) will work.
   * Consider getting a fireproof battery bag. LiPo batteries are extremely flammable/explosive and a fire caused by a battery is extremely difficult to put out.
   * You'll also need a way to connect your battery to the PCB via a XT30 connector (MH-FC) which depends on the battery you get. Often these come with the charger for the battery
 * A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
+
+> (*) The reason you need 14V is that the 12V regulator needs a [dropout voltage](https://www.pololu.com/product/2855#dropout) on top of the output voltage in order to provide 12V. A 12V battery will not work adequately.
 
 # Maintaining the Parts List
 

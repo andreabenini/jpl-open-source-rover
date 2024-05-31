@@ -2,6 +2,40 @@
 
 OSRs in the wild and under construction! Please [add your rover](#Instructions-for-adding-your-build) and add updates and pictures here as it evolves.
 
+# <ins>V2 Rovers</ins>
+
+## TMUMechE ([TMUMechE](https://github.com/TMUMechE/open-source-rover))
+| <image src="images/TMUMechE/RoverPic1.png" height="175"> <image src="images/TMUMechE/RoverPic2.png" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+* Project began in January 2024 with a team of 3 seniors studying mechanical engineering at The Master's University, and the help of a senior in computer science
+* Intended to be a platform for future classes at The Master's University to build on the work we have started
+
+### modifications
+* Check back here for modifications coming soon!
+
+</details>
+
+## Bobert ([Adriel](https://github.com/abust005/open-source-rover))
+| <image src="images/bobert/bobert_front.jpg" height="175"> <image src="images/bobert/bobert_side.jpg" height="175"> <image src="images/bobert/bobert_back.jpg" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+* Construction started in October 2023 as a first personal dive into robotics 
+* Intended as a learning experience, and as a general robotics platform for exploring computer vision and navigation algorithms
+
+### modifications
+* **OAK-D + mount**: Bobert has an original run OAK-D from the first Kickstarter for his eyes, plus a custom pan-tilt mount I designed and had printed in nylon with multi-jet fusion (MJF). The mount uses two pancake stepper motors driven my a SPI-controlled stepper driver board
+* **Tool rack**: For field maintenance and repair, I've added a small rack using some wooden dowels and some 3D-printed brackets to hold my Wera ratchet in place on Bobert
+* **On/off switch mount**: To prevent the on/off switch just flopping around, I've added a small 3D-printed switch mount
+
+</details>
+
 ## Raf the Rover ([Achille](https://github.com/Achllle))
 
 | <image src="images/raf/raf_roof_rack.jpg" height="150"> <image src="images/raf/osr_outside.jpg" height="150"> |
@@ -20,6 +54,59 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 * I built a roof rack for it so that it could carry stuff around. As you can see from my first rover's mods, I switched to a roof payload holder instead of a trailer cart since that makes doing autonomy easier and lowers the chance of slipping.
 
 </details>
+
+## Samwise ([Eric](https://github.com/ericjunkins))
+
+| <image src="images/samwise/samwise_front.jpg" height="150"> <image src="images/samwise/samwise_side.jpg" height="150"> <image src="images/samwise/ring_bearing.jpg" height="150">|
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+  
+### Background
+
+* This is a custom spin-off of the OSR V2 design, utilizing mostly the same electronics and software stack, but made out of a combination of laser cut aluminum and 3D printing technologies such as MJF, SLA, and SLS. It was inspired by my partner who asked for a ring bearer robot at our wedding, and this project was particularly special to us as I was working on designing the very first Open Source Rover at JPL when we met. 
+
+### Modifications
+
+<table>
+  <tr>
+    <td width="50%">
+      Custom channels, creating the structure and allowing cables to be routed through the interior of the robot, sealing from elements, and keeping cables well protected. 
+    </td>
+    <td>
+      <image src="images/samwise/rocker_bogie_inside.PNG" >
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      Added a servo and servo mounting block + gears in order to give the head an articulated axis, making it so I could make the head rotate around. Hollow tube supports mounts the head to run cables, and mounts an LCD screen at the top. 
+    </td>
+    <td>
+      <image src="images/samwise/head_pivot_mechanism.PNG">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      Wrote a ROS backend + FastAPI, and React frontend to display either a cute face, or diagnostic information about what's happening on the robot. Gui shows things like wheel speeds, servo positions, battery voltage level, and a few error/faults.
+    </td>
+    <td>
+      <image src="images/samwise/gui.PNG">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      Added corner latches that swing up/down and attach via magnets, allowing me to lock out the corners so they can't move for transportation. 
+    </td>
+    <td>
+      <image src="images/samwise/corner_stops.jpg">
+    </td>
+  </tr>
+</table>
+
+</details>
+
+# <ins>V1 Rovers</ins>
 
 ## JPL Rover
 
@@ -183,7 +270,7 @@ Built by the [Cardinal Gibbons Robotics](https://www.cghsnc.org/campuslife/co-cu
    3. 'Clone' your fork to your computer by clicking the green `Code` button and copying the link. Type in `git clone` into your terminal and paste the link you just copied.
    4. Create a new branch and switch to it. `git checkout -b ourrovername_gallery`
    5. You're ready to start making changes! You can use any text editor of your liking, like [VS code](https://code.visualstudio.com/).
-2. copy over someone else's section and adjust it to include your build's information. Add your entry to the bottom, just above this section. To keep this compact, add any text and details to the collapsible section (within the `<details> </details>` tags).
+2. copy over someone else's section and adjust it to include your build's information. Add your entry to the top of the relevant section (V1 or V2). To keep this compact, add any text and details to the collapsible section (within the `<details> </details>` tags).
 3. Create a new folder within [the images folder](./images) and add your rover's pictures to it.
 4. Change the image links to point to your images. The format for that is `image src="images/your_folder_name/your_picture.jpg"`.
 5. Commit your changes with git.
