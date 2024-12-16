@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1391.55** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
+The total cost comes out to be **$1401.73** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
 
 
 
@@ -68,7 +68,7 @@ Cost to build these assemblies: $205.92 * 2 assemblies = $411.85
 | 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
 | 32mm bearing | [1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA](https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/) | $12.99 | 4 | $51.96 |
 | 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 3 | $10.47 |
-| 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 5 | $25.45 |
+| 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 7 | $35.63 |
 | 41 hole beam | [1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-41-hole-328mm-length/) | $6.99 | 4 | $27.96 |
 | 12 hole beam | [1106 Series Square Beam (12 Hole, 96mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-12-hole-96mm-length/) | $2.99 | 8 | $23.92 |
 | 41 hole u-beam beam | [1101 Series U-Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1101-series-u-beam-41-hole-328mm-length/) | $3.89 | 1 | $3.89 |
@@ -85,7 +85,7 @@ Cost to build these assemblies: $205.92 * 2 assemblies = $411.85
 | 3x5 grid plate | [1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm)](https://www.gobilda.com/1116-series-grid-plate-3-x-5-hole-24-x-40mm/) | $1.29 | 4 | $5.16 |
 | 2 hole flat beam | [1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack](https://www.gobilda.com/1102-series-flat-beam-2-hole-16mm-length-2-pack/) | $1.79 | 2 | $3.58 |
 
-Cost to build this assembly: $243.49
+Cost to build this assembly: $253.67
 
 ## Parts for general assembly
 
@@ -223,10 +223,9 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 * Voltage Regulators:
   * **1 X** 5V Regulator: [Pololu](https://www.pololu.com/product/2881)
   * **1 X** 12V Regulator: [Pololu](https://www.pololu.com/product/2855)
-* **1 X** PCA9685 corner: [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
 * **3 X** Roboclaw 2x7A Motor Controller [Basic Micro](https://www.basicmicro.com/Roboclaw-2x7A-Motor-Controller_p_55.html)
 * **1 X** Power Measurement Unit INA260: Sold out on DigiKey, possible replacements are on [Adafruit](https://www.adafruit.com/product/4226?gclid=CjwKCAjw5dqgBhBNEiwA7PryaLOm_zC9GhlzRH1NwN4bSRwDg84sIhSh3LEqTOrIvQ3j_kRBscTAYhoCBOQQAvD_BwE)
-* **1 X** PCA9685 corner motor driver [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
+* **1 X** PCA9685 steering servo driver [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
 * DC power meter: [Amazon](https://www.amazon.com/gp/product/B017FSED9I/). This LCD display reads out current, voltage, power, and energy, and can be put on the back where the rectangular hole is in the laser cut cover.
 * batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 14V(*), so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
   * Zeee sells many options [on Amazon](https://www.amazon.com/stores/page/25B7018D-26CC-4E43-BC6D-EFAF737D8F5E?ingress=2&visitId=1b4115fa-2240-424d-a0e6-a466830819ce&ref_=ast_bln)
