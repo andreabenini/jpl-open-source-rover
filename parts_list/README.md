@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1401.73** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
+The total cost comes out to be **$1409.2** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
 
 
 
@@ -94,7 +94,7 @@ Cost to build this assembly: $253.67
 | hurricane nuts | [Hurricane Nut for goRAIL - 25 Pack - goBILDA](https://www.gobilda.com/hurricane-nut-for-gorail-25-pack/) | $9.99 | 1 | $9.99 |
 | wire grommets | [Plastic Grommet (14-1) - 12 Pack - goBILDA](https://www.gobilda.com/plastic-grommet-14-1-12-pack/) | $1.99 | 1 | $1.99 |
 | M4 washers | [Zinc Plates Steel Washer (M4 x 8mm OD) - 25 Pack - goBILDA](https://www.gobilda.com/2801-series-zinc-plated-steel-washer-4mm-id-x-8mm-od-25-pack/) | $1.99 | 1 | $1.99 |
-| M4 nuts | [Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.49 | 1 | $2.49 |
+| M4 nuts | [Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.49 | 4 | $9.96 |
 | M4 locknuts | [Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.99 | 1 | $2.99 |
 | M4x6 button screws | [M4x6 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/) | $2.99 | 2 | $5.98 |
 | M4x10 button screws | [M4x10 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.39 | 3 | $10.17 |
@@ -105,7 +105,7 @@ Cost to build this assembly: $253.67
 | M4x16 socket screws | [M4x16 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.19 | 2 | $6.38 |
 | M4x20 socket screws | [M4x20 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | $3.09 | 1 | $3.09 |
 
-Cost to build this assembly: $71.79
+Cost to build this assembly: $79.26
 
 ## Parts for electrical assembly
 
@@ -187,6 +187,7 @@ Heat shrink is a must have for keeping cables nice and snug.
 Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, JST, and Molex styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
 
 * A Raspberry Pi ribbon cable, e.g. from [Adafruit](https://www.adafruit.com/product/1988) but available in many places. While you could use header pins for this connection, the cable is the cleanest solution
+* A USB-C power breakout cable if you're using a Raspberry Pi 5, e.g. from [Amazon](https://www.amazon.com/dp/B0D2C74PLY)
 * XT30 connectors for the power connections on the motor PCB.
   * DIY options, either:
     * [5 pairs M/F from Gobilda](https://www.gobilda.com/xt30-connector-pack-fh-mc-x-5-mh-fc-x-5/)
