@@ -4,6 +4,22 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## jerrys_rover ([jerryok826](https://github.com/jerryok826/rover-monitor  ))
+| <image src="images/jerrys_rover/rover_lawn_1.jpeg" height="175"> <image src="images/jerrys_rover/rover_monitor_pcb.jpg" height="175"> 
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+### Background
+I always wanted to build an outdoor rover so I started building the JPL rover in May 2025. It took me a couple of months to build it but it was great fun. I learned a lot along the way especially after not using Loctite, the screws loosened and left me with a trail of nuts and bolts in the backyard.
+### Modifications
+* Added OLED info display with shutdown and run buttons.
+* Audible alarm for of battery state.
+* Make one yourself [here](https://github.com/jerryok826/rover-monitor)
+
+</details>
+
 ## Resilience (res) ([murphcj](https://github.com/murphcj))
 | <image src="images/Resilience/Resilience_Lighthouse.jpeg" height="175"> <image src="images/Resilience/Resilience_Ocean.jpeg" height="175"> <image src="images/Resilience/Resilience_at_School.jpeg" height="175">
 |:-:|
