@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1409.2** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
+The total cost comes out to be **$1421.18** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
 
 
 
@@ -56,8 +56,9 @@ Cost to build these assemblies: $11.48 * 4 assemblies = $45.92
 | control arm | [Plastic Hub-Mount Control Arm (72mm Length) - goBILDA](https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/) | $4.99 | 4 | $19.96 |
 | 8mm ID Spacer (10mm OD, 6mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/) | $3.49 | 1 | $3.49 |
 | 8mm ID Spacer (10mm OD, 4mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-4mm-length-4-pack/) | $2.99 | 1 | $2.99 |
+| goRAIL® Nut (5 Hole) - 2 Pack | [goRAIL® Nut (5 Hole) - 2 Pack - goBILDA](https://www.gobilda.com/gorail-nut-5-hole-2-pack/) | $5.99 | 2 | $11.98 |
 
-Cost to build these assemblies: $205.92 * 2 assemblies = $411.85
+Cost to build these assemblies: $211.91 * 2 assemblies = $423.83
 
 
 ## Parts for body assembly
@@ -157,7 +158,7 @@ These parts you may either already have, depend on where you're located for a go
 ### The PCBs
 
 The electronics of the rover consist of two boards: the brain board and the motor board. To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board size and has good turnaround time. You'll either have to order the required minimum of 10 pieces or you can ask on the Slack group whether someone wants to put in a group order or already has some extras.
-Upload the [.zip files](../electrical/pcb/control_board/gerbers/v2.0.2/) individually and make sure the following settings are set:
+Upload the [.zip files](../electrical/pcb/control_board/gerbers/gerber_files/) individually — one for the brain board and one for the motor board — and make sure the following settings are set:
 
 ![jlcpcb settings](../electrical/pcb/control_board/gerbers/jlcpcb_ordering.png)
 
